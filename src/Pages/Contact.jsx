@@ -1,6 +1,12 @@
+import Footer from "../Components/Footer"
+import Header from "../Components/Header"
+
 const Contact = () => {
     return <div>
-        <h1> Contact Page</h1>
+        
+        <Header/>
+        <h1 className="pt-60">Contact Us</h1>
+        <Footer/>
     </div>
 }
 
